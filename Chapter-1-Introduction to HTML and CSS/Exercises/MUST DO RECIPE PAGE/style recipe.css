@@ -1,6 +1,6 @@
-img {
-    opacity: 0.5;
+body{
+    color: black;
 }
-.bg{
-    width: fit-content;
+h1, h2 {
+    color: #683f1c;
 }
