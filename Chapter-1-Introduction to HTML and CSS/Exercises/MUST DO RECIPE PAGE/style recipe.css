@@ -1,6 +1,18 @@
 body{
     color: black;
+    margin-left: 20px;
 }
 h1, h2 {
     color: #683f1c;
+}
+.image{
+    margin-right: 150px;
+}
+.heading{
+    background-color: #efb55f ;
+}
+ 
+.heads{
+    display: inline-block; /* Display as inline block */
+    vertical-align:top; 
 }
