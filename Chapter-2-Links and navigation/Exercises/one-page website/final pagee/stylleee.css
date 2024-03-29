@@ -1,0 +1,270 @@
+body{
+    background-color: rgb(0, 50, 91);
+}
+/*
+.start {
+    display: flex; /* Use flexbox for layout */
+   /* align-items: center; /* Align items vertically */
+  /*  justify-content: center;
+    color: gold; /* Set text color */
+  /*  -webkit-text-stroke: 0.5px goldenrod; 
+}
+
+#star {
+    font-size: 60px; /* Adjust star size */
+   /*
+}
+
+#title {
+    margin-left: 10px; /* Add spacing between star and title */
+  /*  text-align: center; /* Center align the title 
+} */
+
+
+.start {
+    text-align: center; /* Center align content */
+    color: gold; /* Set text color */
+    -webkit-text-stroke: 0.5px goldenrod; 
+}
+
+.title-info {
+    display: inline-block; /* Display title and star on the same line */
+    vertical-align: middle; /* Align vertically */
+}
+
+#star {
+    font-size: 60px; /* Adjust star size */
+    margin-right: 10px; /* Add spacing between star and title */
+    margin-bottom: -10px;
+}
+
+#title {
+    font-size: 36px; /* Adjust title font size */
+    font-weight: bold; /* Make title bold */
+    vertical-align: middle; /* Align vertically with star */
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0); 
+    margin-left: -7px;
+}
+
+#side {
+    font-size: 14px; /* Adjust sidebar font size */
+    margin-top: -10px; /* Move sidebar closer to the title */
+}
+
+nav ol{
+    display: block;
+}
+nav li{
+    display: inline-block;
+    padding: 20px;
+}
+nav{
+    background-color: #641612;
+    text-align: center;
+}
+nav ol li a{
+    text-decoration: none ;
+    color: gold;
+    
+}
+.cook h1{
+    /*background-color: rgb(140, 119, 0);*/
+    background-color: #641612;
+    color: gold; 
+    font-size: 40px; 
+    text-align: center;
+}
+.cook h2, h3, h4{
+    /*color: #e3e3e3;*/
+    color: rgb(255, 235, 119);
+    margin-left: 20px; 
+
+}
+.cook p{
+    color: #fff;
+    margin-left: 20px; 
+}
+
+.cook ul li{
+    color:#9a3b36 ;
+}
+.cook sub{
+    font-size: 13px;
+}
+
+
+.genres {
+    display: flex;
+}
+
+.genre {
+    width: 100px;
+    height: 65px;
+    background-color: #007bff; /* Blue color */
+    border-radius: 10px; /* Adjust the border-radius to change the shape */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px; 
+    margin-right: 20px;
+    color: rgb(255, 194, 39);
+}
+
+
+/*
+.genres  p {
+    text-align: center;
+    margin-left: 0px;
+}*/
+.Tcaste{
+    text-align: center;
+    font-weight: bold;
+}
+.Tcaste h1{
+    background-color: #641612;
+    color: gold; 
+    font-size: 40px; 
+    text-align: center;
+}
+.Tcaste h2{
+    color: rgb(255, 235, 119);
+
+}
+
+.cast-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cast-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.circle {
+    width: 65px;
+    height: 65px;
+    background-color: #007bff; /* Blue color */
+    border-radius: 50%; /* Make it a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    color: rgb(255, 194, 39);
+}
+
+.cast-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.cast-details h3 {
+    margin: 0;
+    color: goldenrod;
+}
+
+.cast-details p {
+    margin: 5px 0;
+    color:#9a3b36 ;
+}
+
+
+
+/*..........................................................*/
+
+.cast-list2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cast-item2 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.circle2 {
+    width: 65px;
+    height: 65px;
+    background-color: #007bff; /* Blue color */
+    color: rgb(255, 194, 39);
+    border-radius: 50%; /* Make it a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 53px;
+}
+
+.cast-details2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.cast-details2 h3 {
+    margin: 0;
+    color: goldenrod;
+}
+
+.cast-details2 p {
+    margin: 5px 0;   
+    color:#9a3b36 ;
+}
+
+.cook hr{
+    height: 2px;
+}
+#end{
+    text-align: center;
+    color: gold;
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: -10px;
+}
+/*
+.B_T button{
+    text-decoration: none;
+    background-color: gold;
+    color: goldenrod;
+    text-align: center;
+    cursor: pointer;
+
+}*/
+.ttop{
+    display: flex;
+    justify-content: center;
+    margin-left : 50%; 
+}
+.B_T {
+    text-decoration: none;
+    background-color: gold;
+    color: #641612;
+    text-align: center;
+    cursor:progress;
+    border: none; /* Remove default button border */
+    padding: 5px; /* Adjust padding as needed */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+.B_T:hover {
+    background-color: goldenrod; /* Change background color on hover */
+    color: #641612; /* Change text color on hover */
+}
+.site b{
+    color: #9b423e;
+}
+.marvel{
+    text-decoration: none;
+    background-color: gold;
+    color: rgb(133, 97, 6);
+    text-align: center;
+    cursor: pointer;
+    border: none; /* Remove default button border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Add rounded corners */
+}
+.marvel:hover {
+    background-color: goldenrod; /* Change background color on hover */
+    color: rgb(255, 231, 96); /* Change text color on hover */
+}
