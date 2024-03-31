@@ -245,7 +245,7 @@ nav li:last-child .marvell {
 }
 .ttop{
     display: flex;
-    justify-content:right;
+    justify-content:center;
     /*margin-left : 50%; */
 
 }
@@ -264,10 +264,10 @@ nav li:last-child .marvell {
     background-color: goldenrod; /* Change background color on hover */
     color: #fff200; /* Change text color on hover */
 }
+/*key points*/
 #pointz{
     display: inline;
 }
-/*key symbol*/
 .cook span{
     color: gold;
 }
