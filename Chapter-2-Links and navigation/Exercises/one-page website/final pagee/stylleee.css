@@ -1,48 +1,30 @@
+/*main body*/ 
 body{
-    background-color: rgb(0, 50, 91);
+    background-color: #0c2340; /*background color for the page*/
 }
-/*
+/*starting the page (title and star and mini bar on the side) */
 .start {
-    display: flex; /* Use flexbox for layout */
-   /* align-items: center; /* Align items vertically */
-  /*  justify-content: center;
+    text-align: center; /* Center align */
     color: gold; /* Set text color */
-  /*  -webkit-text-stroke: 0.5px goldenrod; 
-}
-
-#star {
-    font-size: 60px; /* Adjust star size */
-   /*
-}
-
-#title {
-    margin-left: 10px; /* Add spacing between star and title */
-  /*  text-align: center; /* Center align the title 
-} */
-
-
-.start {
-    text-align: center; /* Center align content */
-    color: gold; /* Set text color */
-    -webkit-text-stroke: 0.5px goldenrod; 
+    -webkit-text-stroke: 0.5px goldenrod; /* set stroke and color*/
 }
 
 .title-info {
     display: inline-block; /* Display title and star on the same line */
-    vertical-align: middle; /* Align vertically */
+    vertical-align: middle; /* Align vertically in center */
 }
 
 #star {
     font-size: 60px; /* Adjust star size */
     margin-right: 10px; /* Add spacing between star and title */
-    margin-bottom: -10px;
+    margin-bottom: -10px; /* add scapng between star and teh title*/
 }
 
 #title {
     font-size: 36px; /* Adjust title font size */
     font-weight: bold; /* Make title bold */
     vertical-align: middle; /* Align vertically with star */
-    -webkit-text-stroke: 0.5px rgb(0, 0, 0); 
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0); /* set stroke and color*/
     margin-left: -7px;
 }
 
@@ -50,84 +32,127 @@ body{
     font-size: 14px; /* Adjust sidebar font size */
     margin-top: -10px; /* Move sidebar closer to the title */
 }
+/* starting the <nav> bar part (logo, <nav> and the button) */
+.header {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Align items with maximum space between them */
+    align-items: center; /* Center align items vertically */
+    background-color: #641612; /* Dark red background */
+    padding: 10px; /* Add padding to create space around the logo and navigation */
+}
 
-nav ol{
-    display: block;
+.logo {
+    margin-left: 30px; /* Add margin to the right of the logo */
 }
-nav li{
-    display: inline-block;
-    padding: 20px;
+
+.logo h1 {
+    margin: 0; /* Remove default margin */
+    color: gold; /* Change logo color */
 }
-nav{
-    background-color: #641612;
-    text-align: center;
+
+nav {
+    margin-right: 30px; /* Add margin to the left of the navigation bar */
 }
-nav ol li a{
-    text-decoration: none ;
-    color: gold;
-    
+
+nav ol {
+    list-style-type: none; 
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Make the list items horizontal */
 }
+
+nav li {
+    padding: 0 10px; /* Add padding between navigation items */
+}
+
+nav a {
+    text-decoration: none; /*removes the underline part*/
+    color: gold; /*set color of the nav bar to gold*/
+}
+
+.marvell {
+    background-color: transparent; /* Remove button background color */
+    border: 2px solid gold; /* Add border to button */
+    color: gold; /* Change button text color */
+    padding: 5px 10px; /* Add padding to button */
+}
+
+.marvell:hover {
+    background-color: gold; /* Change button background color on hover */
+    color: #641612; /* Change button text color on hover */
+}
+
+nav li:last-child .marvell {
+    margin-left: 30px; /* Add margin to the left of the button */
+}
+/* starting the page */
+/*main headings*/
 .cook h1{
     /*background-color: rgb(140, 119, 0);*/
-    background-color: #641612;
-    color: gold; 
-    font-size: 40px; 
-    text-align: center;
+    background-color: #641612; /*set the background color*/
+    color: gold;  /*set the h2 text color */
+    font-size: 40px; /*making the size 40px*/
+    text-align: center; /*adjust to make it at the center of the page */ 
 }
+/*sub-headings*/
 .cook h2, h3, h4{
     /*color: #e3e3e3;*/
-    color: rgb(255, 235, 119);
+    color: rgb(255, 235, 119); 
     margin-left: 20px; 
-
 }
+.cook h2{
+    text-align: center;
+    background-color: rgb(72, 94, 112); /*color the background */
+}
+/*paragraphs*/
 .cook p{
-    color: #fff;
-    margin-left: 20px; 
+    color: #fff; /* Set text color */
+    margin-left: 50px; 
+    text-align:left;;
+    margin-right: 300px;
 }
-
+/*all the lists */
 .cook ul li{
-    color:#9a3b36 ;
+    color:#9a3b36 ; /* Set text color */
 }
 .cook sub{
-    font-size: 13px;
+    font-size: 13px; /*making the size */
 }
-
+/*genres */
+.bubbles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .genres {
     display: flex;
+    justify-content: center;
 }
-
 .genre {
     width: 100px;
     height: 65px;
-    background-color: #007bff; /* Blue color */
+    background-color: #007bff; /*color the background */
     border-radius: 10px; /* Adjust the border-radius to change the shape */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 10px; 
-    margin-right: 20px;
-    color: rgb(255, 194, 39);
+    margin: 10px; /* Adjust spacing between genres */
+    color: rgb(255, 194, 39); /* Set text color */
 }
-
-
-/*
-.genres  p {
-    text-align: center;
-    margin-left: 0px;
-}*/
+/*Cast & Crew section*/
 .Tcaste{
     text-align: center;
     font-weight: bold;
 }
 .Tcaste h1{
-    background-color: #641612;
-    color: gold; 
-    font-size: 40px; 
+    background-color: #641612; /*color the background */
+    color: gold; /* Set text color */
+    font-size: 40px;  /*set font size*/
     text-align: center;
 }
 .Tcaste h2{
-    color: rgb(255, 235, 119);
+    color: rgb(255, 235, 119); /* Set text color */
 
 }
 
@@ -141,17 +166,17 @@ nav ol li a{
     display: flex;
     margin-bottom: 20px;
 }
-
+/*circle for the Cast & Crew */
 .circle {
     width: 65px;
     height: 65px;
-    background-color: #007bff; /* Blue color */
+    background-color: #007bff; /*color the background */
     border-radius: 50%; /* Make it a circle */
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
-    color: rgb(255, 194, 39);
+    color: rgb(255, 194, 39); /* Set text color */
 }
 
 .cast-details {
@@ -161,17 +186,13 @@ nav ol li a{
 
 .cast-details h3 {
     margin: 0;
-    color: goldenrod;
+    color: goldenrod; /* Set text color */
 }
 
 .cast-details p {
     margin: 5px 0;
-    color:#9a3b36 ;
+    color:#9a3b36 ; /* Set text color */
 }
-
-
-
-/*..........................................................*/
 
 .cast-list2 {
     display: flex;
@@ -187,8 +208,8 @@ nav ol li a{
 .circle2 {
     width: 65px;
     height: 65px;
-    background-color: #007bff; /* Blue color */
-    color: rgb(255, 194, 39);
+    background-color: #007bff; /*color the background */
+    color: rgb(255, 194, 39); /* Set text color */
     border-radius: 50%; /* Make it a circle */
     display: flex;
     justify-content: center;
@@ -211,7 +232,7 @@ nav ol li a{
     margin: 5px 0;   
     color:#9a3b36 ;
 }
-
+/*the end section at the bottom including the "top" button*/
 .cook hr{
     height: 2px;
 }
@@ -219,27 +240,19 @@ nav ol li a{
     text-align: center;
     color: gold;
     font-weight: bold;
-    font-size: 27px;
+    font-size: 27px; /*making the size */
     margin-top: -10px;
 }
-/*
-.B_T button{
-    text-decoration: none;
-    background-color: gold;
-    color: goldenrod;
-    text-align: center;
-    cursor: pointer;
-
-}*/
 .ttop{
     display: flex;
-    justify-content: center;
-    margin-left : 50%; 
+    justify-content:right;
+    /*margin-left : 50%; */
+
 }
 .B_T {
     text-decoration: none;
-    background-color: gold;
-    color: #641612;
+    background-color: gold; /*color the background */
+    color: rgb(128, 92, 1);
     text-align: center;
     cursor:progress;
     border: none; /* Remove default button border */
@@ -249,22 +262,12 @@ nav ol li a{
 
 .B_T:hover {
     background-color: goldenrod; /* Change background color on hover */
-    color: #641612; /* Change text color on hover */
+    color: #fff200; /* Change text color on hover */
 }
-.site b{
-    color: #9b423e;
+#pointz{
+    display: inline;
 }
-.marvel{
-    text-decoration: none;
-    background-color: gold;
-    color: rgb(133, 97, 6);
-    text-align: center;
-    cursor: pointer;
-    border: none; /* Remove default button border */
-    padding: 10px 20px; /* Adjust padding as needed */
-    border-radius: 5px; /* Add rounded corners */
-}
-.marvel:hover {
-    background-color: goldenrod; /* Change background color on hover */
-    color: rgb(255, 231, 96); /* Change text color on hover */
+/*key symbol*/
+.cook span{
+    color: gold;
 }
