@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(45deg,#fff,#b3901d,#4a473e,#36342f);
+}
+
+header{
+    margin-top: -3%;
+    font-size: 20px;
+    text-align: center;
+    background-color:#785c0a;
+    padding: 20px;
+    color: #dfd4b2;
+}
+main{
+    margin-top: -8%;
+}
+/* CSS for centering the content */
+.center-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the container full height of the viewport */
+}
+
+/* CSS for image container */
+.image-container {
+    display: inline-block;
+    margin: 20px;
+    overflow: hidden; /* Prevent images from overflowing container */
+    width: 200px;
+    height: 300px;
+    position: relative; /* Add position relative to properly position <p> tags */
+    align-items: center;
+    cursor: pointer; /* Add pointer cursor to indicate clickability */
+}
+
+.image1 img {
+    filter: grayscale(100%);
+    width: 100%; /* Ensure image fills container width */
+    height: auto; /* Maintain aspect ratio */
+
+}
+
+.image2 img {
+    /*filter:sepia(100%);*/
+    filter: blur(5px);
+    width: 100%; /* Ensure image fills container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.image3 img {
+    filter: hue-rotate(90deg);
+    width: 100%; /* Ensure image fills container width */
+    height: auto; /* Maintain aspect ratio */
+}
+/* Style for spans */
+.st,
+.nd,
+#rd {
+    display: inline; /* Ensure spans are displayed as blocks */
+    text-align: center; /* Center-align text */
+    margin-top: 10px; /* Add margin to the top */
+}
+main span{
+    color: #fff;
+    -webkit-text-stroke: 0.1px rgb(97, 97, 97); 
+}
