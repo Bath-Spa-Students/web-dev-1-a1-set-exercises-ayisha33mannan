@@ -1,10 +1,13 @@
 body{
+    /* margin and padding */
     margin: 0;
     padding: 0;
+    /* background image gradient effect */
     background-image: linear-gradient(45deg,#fff,#b3901d,#4a473e,#36342f);
 }
 
 header{
+    /* margin top, font size, text align, background color, padding, color */
     margin-top: -3%;
     font-size: 20px;
     text-align: center;
@@ -12,59 +15,82 @@ header{
     padding: 20px;
     color: #dfd4b2;
 }
+
 main{
+     /* margin top */
     margin-top: -8%;
 }
-/* CSS for centering the content */
+
+/* for centering the content */
 .center-container {
+    /* width and height */
     width: 100%;
     height: 100vh;
+    /* display flex */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Make the container full height of the viewport */
+    /* height */
+    height: 100vh;
 }
 
-/* CSS for image container */
+/*for image container */
 .image-container {
+    /* display inline block */
     display: inline-block;
+    /* margin */
     margin: 20px;
-    overflow: hidden; /* Prevent images from overflowing container */
+    /* overflow */
+    overflow: hidden; 
+    /* width and height */
     width: 200px;
     height: 300px;
-    position: relative; /* Add position relative to properly position <p> tags */
+    /* position */
+    position: relative; 
+    /* align items */
     align-items: center;
-    cursor: pointer; /* Add pointer cursor to indicate clickability */
+    /* cursor */
+    cursor: pointer; 
 }
 
+/*applying filters*/
+
 .image1 img {
+     /* filter grayscale */
     filter: grayscale(100%);
-    width: 100%; /* Ensure image fills container width */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; /* image fills container width */
+    height: auto; /* maintain aspect ratio */
 
 }
 
 .image2 img {
     /*filter:sepia(100%);*/
+     /* filter blur */
     filter: blur(5px);
-    width: 100%; /* Ensure image fills container width */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; /* image fills container width */
+    height: auto; /* maintain aspect ratio */
 }
 
 .image3 img {
+    /* filter hue rotate */
     filter: hue-rotate(90deg);
-    width: 100%; /* Ensure image fills container width */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; /* image fills container width */
+    height: auto; /* maintain aspect ratio */
 }
 /* Style for spans */
 .st,
 .nd,
 #rd {
-    display: inline; /* Ensure spans are displayed as blocks */
-    text-align: center; /* Center-align text */
-    margin-top: 10px; /* Add margin to the top */
-}
+       /* display inline */
+       display: inline;
+       /* text align */
+       text-align: center; 
+       /* margin top */
+       margin-top: 10px;
+   }
 main span{
+    /*color*/
     color: #fff;
+    /*add stroke*/
     -webkit-text-stroke: 0.1px rgb(97, 97, 97); 
 }
