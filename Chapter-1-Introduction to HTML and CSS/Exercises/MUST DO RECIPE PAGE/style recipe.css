@@ -1,6 +1,8 @@
 body {
+/* margin and padding */
+    margin: 0;
+    padding: 0;
     color: black;
-    margin-left: 20px;
 }
 h1, h2 {
     color: #683f1c;
@@ -10,6 +12,7 @@ h1, h2 {
 }
 .heading{
     background-color: #efb55f ;
+    text-align: center;
 }
  
 .heads{
