@@ -1,0 +1,36 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Fallback background color */
+    background: linear-gradient(45deg, #ffebf0, #ffbfcf, #cc4b6c, #964bcc, #c79ce6, #f4e6ff); /* Apply linear gradient background with multiple colors */
+    background-size: 300% 300%; /* Set size of background to 300% of its original size */
+    animation: color 12s ease-in-out infinite; /* Apply animation named 'color' with duration of 12 seconds, easing in and out, and repeating infinitely */
+}
+@keyframes color {
+    0% {
+        background-position: 0 50%; /* Start position of background gradient */
+    }
+    50% {
+        background-position: 0 100%; /* Middle position of background gradient */
+    }
+    100% {
+        background-position: 0 50%; /* End position of background gradient */
+    }
+}
+header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.video {
+    max-width: 50%;
+    text-align: center;
+}
+video {
+    max-width: 100%;
+    max-height: 100%;
+}
