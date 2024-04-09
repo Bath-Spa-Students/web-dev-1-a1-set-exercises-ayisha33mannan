@@ -14,15 +14,27 @@
         <br>
         <h1>✧.·.✦☽❘༻ COLOR CODE ༺❘☾✦.·.✧</h1>
     </header>
+    <!--main page-->
     <main>
         <!--button to start game on main page -->
-        <button id="play" onclick="startGame()">PLAY</button>
+        <button id="play" onclick="startGame()">PLAY</button> <!--liked in javascript-->
+        <br>
+        <a href="credits.html"><button id="play">CREDITS</button></a><!--linked to other html(credits)-->
     </main>
-<!--inline javascript-->
+    <!--audio-->
+    <audio id="backgroundNoise" autoplay loop hidden>
+        <source src="audio/ambient-piano-and-strings-10711.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+<!--inline javascript (link to color code game)-->
 <script>
 function startGame() {
     window.location.href = "color code.html";
 }
 </script>
+<!--footer-->
+<footer>
+    <span>&copy; 2024 Ayisha Mannan</span>
+</footer>
 </body>
 </html>

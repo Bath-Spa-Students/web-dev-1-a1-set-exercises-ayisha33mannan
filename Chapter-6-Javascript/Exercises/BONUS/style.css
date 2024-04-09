@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: fantasy;
     text-align: center;
     background-image: url(image/bg.png);
 }
@@ -68,4 +68,15 @@ button#play:hover {
 #lives {
     font-size: 2rem;
     margin-bottom: 20px;
+}
+
+footer{
+    margin-left: -20px ;
+    background-color:#be8a8a;
+    color: #54213e;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
 }
