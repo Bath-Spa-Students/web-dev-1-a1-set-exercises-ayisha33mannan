@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(image/pet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator-container {
+    position: absolute;
+    width: 800px;
+    height: 400px; 
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .1);
+    border-radius: 50px;
+    border-right: 2px solid rgba(255, 255, 255, .2);
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.input-container {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center; /* Center the input fields */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    width: 150px; /* Adjust label width */
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    background-color: #000;
+    color: #c59700;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c59700;
+    color: #000;
+}
+
+#total-cost {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#money-input {
+    width: 100px; /* Adjust width of the money input field */
+}
