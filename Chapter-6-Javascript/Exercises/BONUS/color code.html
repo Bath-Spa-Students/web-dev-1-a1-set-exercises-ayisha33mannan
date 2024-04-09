@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Color Guessing Game</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+
+  #color-display {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    transition: color 0.3s ease; 
+  }
+
+  #color-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .color-option {
+    margin: 10px;
+    padding: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%; /* Make the color options circular */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth scaling and box shadow */
+  }
+
+  .color-option:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add shadow on hover for interactive effect */
+  }
+
+  #lives {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+</style>
+</head>
+<body>
+<h1>Color Guessing Game</h1>
+<div id="color-display"></div>
+<div id="color-options"></div>
+<div id="message"></div>
+<div id="score"></div>
+<div id="lives">Lives: <span id="heart-icons">&#9829; &#9829; &#9829;</span></div>
+
+</body>
+</html>
