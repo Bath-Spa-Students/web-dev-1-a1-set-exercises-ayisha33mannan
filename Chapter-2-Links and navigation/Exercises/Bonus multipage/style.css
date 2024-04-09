@@ -4,9 +4,24 @@ body{
     padding: 0;
     margin: 0;
     background-image: radial-gradient(rgb(167, 1, 1), rgb(128, 0, 0), rgb(66, 3, 3));/*background color for the page*/
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100%;
+    height: 100vh;
+}
+.bodyy{
+        padding-top: 60px;
+        padding: 0;
+        margin: 0;
+        /*background-image: radial-gradient(rgb(167, 1, 1), rgb(128, 0, 0), rgb(66, 3, 3));/*background color for the page*/
+        background-color: #ffc400;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        height: 100%;
 }
 /*starting the page (title and star and mini bar on the side) */
 .start {
+    margin-top: 4%;
     text-align: center; /* Center align */
     color: gold; /* Set text color */
     -webkit-text-stroke: 0.5px goldenrod; /* set stroke and color*/
@@ -18,13 +33,13 @@ body{
 }
 
 #star {
-    font-size: 60px; /* Adjust star size */
+    font-size: 100px; /* Adjust star size */
     margin-right: 10px; /* Add spacing between star and title */
     margin-bottom: -10px; /* add scapng between star and teh title*/
 }
 
 #title {
-    font-size: 36px; /* Adjust title font size */
+    font-size: 50px; /* Adjust title font size */
     font-weight: bold; /* Make title bold */
     vertical-align: middle; /* Align vertically with star */
     -webkit-text-stroke: 0.5px rgb(0, 0, 0); /* set stroke and color*/
@@ -32,7 +47,7 @@ body{
 }
 
 #side {
-    font-size: 14px; /* Adjust sidebar font size */
+    font-size: 20px; /* Adjust sidebar font size */
     margin-top: -10px; /* Move sidebar closer to the title */
 }
 /* starting the <nav> bar part (logo, <nav> and the button) */
@@ -275,8 +290,16 @@ nav li:last-child .marvell {
 .cook span{
     color: gold;
 }
+#foot{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    background-image: radial-gradient(rgb(128, 0, 0),#000000);
+    color: gold;
+}
 footer{
-    margin-top: 2%;
     text-align: center;
     width: 100%;
     padding: 5px;
