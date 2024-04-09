@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(image/bg.png);
+}
+
+header {
+    h2{
+        text-align: left;
+        margin-left: 20px;
+        color: #54213e;
+    }
+    h1{
+        margin-top: 8%;
+        text-align: center;
+        color: #be8a8a;
+        -webkit-text-stroke: 1px #54213e ;
+    }
+}
+
+#gamePage{
+    margin-top: 8%;
+}
+
+button#play {
+    margin-top: 3%;
+    font-size: 20px;
+    border-radius: 20px ;
+    color: black;
+    background-color: #993d71;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add cursor pointer for better UX */
+    transition: color 0.3s, background-color 0.3s; /* Add transition for smooth color change */
+}
+
+button#play:hover {
+    color: #993d71;
+    background-color: black;
+}
+
+#color-display {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    transition: color 0.3s ease; 
+}
+
+#color-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.color-option {
+    margin: 10px;
+    padding: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%; /* Make the color options circular */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth scaling and box shadow */
+}
+.color-option:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgb(0, 0, 0); /* Add shadow on hover for interactive effect */
+}
+
+#lives {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}

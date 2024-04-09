@@ -27,8 +27,8 @@ Create an interactive RGB colour guessing game. The game should:
 * Present the user with the rgb value they need to guess
 * Present the user with at least three possible colour options including the correct colour.
 * The possible options should be interactive and when clicked inform the user if they were correct or incorrect.
-* The game should continue until they player has run out of lives
-* At the end of the game the user should be presented with a final score and ability to replay the game
+* The game should continue until they 
+* At the end of the gameplayer has run out of lives the user should be presented with a final score and ability to replay the game
 * Include index.html, style.css and index.js files.
 * Include Comments throughout every file.
 * Implement clean and professional creative styling.
