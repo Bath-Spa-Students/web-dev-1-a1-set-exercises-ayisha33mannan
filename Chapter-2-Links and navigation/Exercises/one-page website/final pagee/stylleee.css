@@ -1,6 +1,9 @@
 /*main body*/ 
 body{
-    background-color: #0c2340; /*background color for the page*/
+    padding-top: 60px;
+    padding: 0;
+    margin: 0;
+    background-image: radial-gradient(rgb(167, 1, 1), rgb(128, 0, 0), rgb(66, 3, 3));/*background color for the page*/
 }
 /*starting the page (title and star and mini bar on the side) */
 .start {
@@ -34,11 +37,14 @@ body{
 }
 /* starting the <nav> bar part (logo, <nav> and the button) */
 .header {
-    display: flex; /* Use flexbox layout */
-    justify-content: space-between; /* Align items with maximum space between them */
-    align-items: center; /* Center align items vertically */
-    background-color: #641612; /* Dark red background */
-    padding: 10px; /* Add padding to create space around the logo and navigation */
+    position: sticky;
+    top: 0;
+    z-index: 999; /* Ensure it's above other content */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: radial-gradient(rgb(128, 0, 0),#000000);
+    padding: 10px;
 }
 
 .logo {
@@ -89,7 +95,7 @@ nav li:last-child .marvell {
 /*main headings*/
 .cook h1{
     /*background-color: rgb(140, 119, 0);*/
-    background-color: #641612; /*set the background color*/
+    background-image: radial-gradient(#450f0d,rgb(163, 1, 1)) ; /*set the background color*/
     color: gold;  /*set the h2 text color */
     font-size: 40px; /*making the size 40px*/
     text-align: center; /*adjust to make it at the center of the page */ 
@@ -102,7 +108,7 @@ nav li:last-child .marvell {
 }
 .cook h2{
     text-align: center;
-    background-color: rgb(72, 94, 112); /*color the background */
+    background-image: radial-gradient(#282828,#969595); /*color the background */
 }
 /*paragraphs*/
 .cook p{
@@ -113,7 +119,7 @@ nav li:last-child .marvell {
 }
 /*all the lists */
 .cook ul li{
-    color:#9a3b36 ; /* Set text color */
+    color:#ffc400 ; /* Set text color */
 }
 .cook sub{
     font-size: 13px; /*making the size */
@@ -132,13 +138,13 @@ nav li:last-child .marvell {
 .genre {
     width: 100px;
     height: 65px;
-    background-color: #007bff; /*color the background */
+    background-color: #252525; /*color the background */
     border-radius: 10px; /* Adjust the border-radius to change the shape */
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px; /* Adjust spacing between genres */
-    color: rgb(255, 194, 39); /* Set text color */
+    color: rgb(255, 213, 0); /* Set text color */
 }
 /*Cast & Crew section*/
 .Tcaste{
@@ -146,7 +152,6 @@ nav li:last-child .marvell {
     font-weight: bold;
 }
 .Tcaste h1{
-    background-color: #641612; /*color the background */
     color: gold; /* Set text color */
     font-size: 40px;  /*set font size*/
     text-align: center;
@@ -170,7 +175,7 @@ nav li:last-child .marvell {
 .circle {
     width: 65px;
     height: 65px;
-    background-color: #007bff; /*color the background */
+    background-color: #252525; /*color the background */
     border-radius: 50%; /* Make it a circle */
     display: flex;
     justify-content: center;
@@ -186,12 +191,12 @@ nav li:last-child .marvell {
 
 .cast-details h3 {
     margin: 0;
-    color: goldenrod; /* Set text color */
+    color: rgb(255, 195, 42); /* Set text color */
 }
 
 .cast-details p {
     margin: 5px 0;
-    color:#9a3b36 ; /* Set text color */
+    color:#c8c8c8 ; /* Set text color */
 }
 
 .cast-list2 {
@@ -208,7 +213,7 @@ nav li:last-child .marvell {
 .circle2 {
     width: 65px;
     height: 65px;
-    background-color: #007bff; /*color the background */
+    background-color: #252525; /*color the background */
     color: rgb(255, 194, 39); /* Set text color */
     border-radius: 50%; /* Make it a circle */
     display: flex;
@@ -225,12 +230,12 @@ nav li:last-child .marvell {
 
 .cast-details2 h3 {
     margin: 0;
-    color: goldenrod;
+    color: rgb(255, 195, 42);
 }
 
 .cast-details2 p {
     margin: 5px 0;   
-    color:#9a3b36 ;
+    color:#c8c8c8 ;
 }
 /*the end section at the bottom including the "top" button*/
 .cook hr{
