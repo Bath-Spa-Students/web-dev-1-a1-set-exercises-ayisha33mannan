@@ -95,7 +95,7 @@ nav li:last-child .marvell {
 /*main headings*/
 .cook h1{
     /*background-color: rgb(140, 119, 0);*/
-    background-image: radial-gradient(#450f0d,rgb(163, 1, 1)) ; /*set the background color*/
+    background-image: radial-gradient(#450f0d,rgb(163, 1, 1), #130000) ; /*set the background color*/
     color: gold;  /*set the h2 text color */
     font-size: 40px; /*making the size 40px*/
     text-align: center; /*adjust to make it at the center of the page */ 
@@ -104,7 +104,6 @@ nav li:last-child .marvell {
 .cook h2, h3, h4{
     /*color: #e3e3e3;*/
     color: rgb(255, 235, 119); 
-    margin-left: 20px; 
 }
 .cook h2{
     text-align: center;
@@ -113,9 +112,9 @@ nav li:last-child .marvell {
 /*paragraphs*/
 .cook p{
     color: #fff; /* Set text color */
-    margin-left: 50px; 
+    margin-left: 30px; 
     text-align:left;;
-    margin-right: 300px;
+    margin-right: 90px;
 }
 /*all the lists */
 .cook ul li{
