@@ -1,33 +1,12 @@
-/*
-body {
-  background-color: #B9C1AA
-}
-
-h1 {
-    color: #FFFFFF;
-    -webkit-text-stroke: 0.3px black;
-}
-.heading{
-    background-color: #d4cdab 
-    /*#46522e
-    #8f2901
-    #ec8800
-    #fcc601 * /
-}
-.starting{
-    background-color: #d4cdab;
-}
-
-*/
-
 body{
     background-color: azure;
     margin-left: 20px;
+    padding: 0;
+    margin: 0;
 }
 
  .start h1{
     color: rgb(0, 213, 255);
-   /* -webkit-text-stroke: 0.3px black; */
 }
 .start{
     text-align: center;
