@@ -1,3 +1,4 @@
+/*styling the body a*/
 body, html {
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /*animated backgroud*/
     background-color: #f0f0f0; /* Fallback background color */
     background: linear-gradient(45deg, #ffebf0, #ffbfcf, #cc4b6c, #964bcc, #c79ce6, #f4e6ff); /* Apply linear gradient background with multiple colors */
     background-size: 300% 300%; /* Set size of background to 300% of its original size */
