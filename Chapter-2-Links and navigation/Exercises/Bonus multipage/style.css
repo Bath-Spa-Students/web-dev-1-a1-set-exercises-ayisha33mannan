@@ -13,7 +13,6 @@ body{
         padding-top: 60px;
         padding: 0;
         margin: 0;
-        /*background-image: radial-gradient(rgb(167, 1, 1), rgb(128, 0, 0), rgb(66, 3, 3));/*background color for the page*/
         background-color: #ffc400;
         background-repeat: no-repeat;
         background-size: cover; 
@@ -265,9 +264,9 @@ nav li:last-child .marvell {
 .ttop{
     display: flex;
     justify-content:center;
-    /*margin-left : 50%; */
 
 }
+/*buttn*/
 .B_T {
     text-decoration: none;
     background-color: gold; /*color the background */
@@ -290,6 +289,7 @@ nav li:last-child .marvell {
 .cook span{
     color: gold;
 }
+/*footer*/
 #foot{
     position: fixed;
     bottom: 0;
@@ -299,6 +299,7 @@ nav li:last-child .marvell {
     background-image: radial-gradient(rgb(128, 0, 0),#000000);
     color: gold;
 }
+/*footer*/
 footer{
     text-align: center;
     width: 100%;

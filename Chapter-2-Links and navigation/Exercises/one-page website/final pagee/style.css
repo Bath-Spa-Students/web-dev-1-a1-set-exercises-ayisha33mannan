@@ -253,6 +253,7 @@ nav li:last-child .marvell {
     /*margin-left : 50%; */
 
 }
+/*button*/
 .B_T {
     text-decoration: none;
     background-color: gold; /*color the background */
@@ -275,6 +276,7 @@ nav li:last-child .marvell {
 .cook span{
     color: gold;
 }
+/*footer*/
 footer{
     margin-top: 2%;
     text-align: center;
