@@ -2,7 +2,7 @@
 
 let filtersApplied = false; // Flag to keep track of whether filters are applied or not
 
-// Function to toggle filters on images
+// Function to chnage filters on images
 function magicFilters() {
     const images = document.querySelectorAll('.imageContainer img'); // Select all images
     // Loop through each image
@@ -20,5 +20,5 @@ function magicFilters() {
             }
         }
     });
-    filtersApplied = !filtersApplied; // Toggle the flag
+    filtersApplied = !filtersApplied; 
 }
