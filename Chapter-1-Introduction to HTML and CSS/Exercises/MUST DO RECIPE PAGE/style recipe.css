@@ -3,18 +3,44 @@ body {
     margin: 0;
     padding: 0;
     color: black;
+    background-image: url(images/bg.png);
+    margin-left: 20px;
+    p{
+        color: rgb(254, 236, 132);
+    }
+    ul{
+        color: rgb(254, 236, 132);
+    }
+    ul li{
+        color: rgb(176, 0, 0);
+    }
+    ol li{
+        color: rgb(176, 0, 0);
+    }
+    table td{
+        color: gold;
+        p{
+            margin-left: 20px;
+            margin-right: 10px;
+        }
+    }
 }
-h1, h2 {
-    color: #683f1c;
+h1, h2 , h3{
+    color: #ad6729;
+    font-family: "Istok Web", sans-serif;
 }
 .image{
-    margin-right: 150px;
+    margin-right: 70px;
+    margin-top: -90px;
+    transform: rotate(20deg);
+    opacity: 40%;
 }
 .heading{
-    background-color: #efb55f ;
     text-align: center;
+    img{
+        margin-top: -20px;
+    }
 }
- 
 .heads{
     display: inline-block; /* Display as inline block */
     vertical-align:top; 
