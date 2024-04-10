@@ -9,7 +9,9 @@
 </head>
 <body>
     <div class="calculator-container"> 
+        <!-- Title -->
         <h1>Petrol Calculator</h1>
+        <!-- Input fields for petrol cost and liters purchased -->
         <div class="input-container">
             <label for="petrol-cost">Cost of Petrol per Liter:</label>
             <input type="number" id="petrol-cost" value="1.72" step="0.01" min="0.01" required>
@@ -18,12 +20,15 @@
             <label for="liters-purchased">Number of Liters Purchased:</label>
             <input type="number" id="liters-purchased" value="0" step="0.01" min="0" required>
         </div>
+        <!-- Button to calculate total cost -->
         <button id="calculate-btn">Calculate</button>
         <br>
+        <!-- Input field for amount of money -->
         <div class="input-container">
             <label for="money-input">Enter Amount:</label>
             <input type="number" id="money-input" step="0.01" min="0" required>
         </div>
+        <!-- Display total cost and message -->
         <p id="total-cost"></p>
         <p id="message"></p>
     </div>
