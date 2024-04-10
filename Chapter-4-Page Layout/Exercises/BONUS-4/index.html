@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!--header title-->
+    <header>
+        <h1>Study Planner</h1>
+    </header>
+    <!--nav bar-->
+    <nav>
+        <ul>
+            <li><a href="#modules">MODULES</a></li>
+            <li><a href="#todo">TO-DO LIST</a></li>
+            <li><a href="#assessment">Assessment Link</a></li>
+            <li><a href="#deadline">Deadline</a></li>
+            <li><a href="#complete">Complete</a></li>
+        </ul>
+    </nav>
+    <!--main-->
+    <main>
+        <!--table-->
+        <table>
+            <tr> 
+                <!--table heading-->
+                <th id="modules"><a href="#modules">MODULES</a></th>
+                <th id="todo"><a href="#todo">TO-DO LIST</a></th>
+                <th id="assessment"><a href="#assessment">Assessment Link</a></th>
+                <th id="deadline"><a href="#deadline">Deadline</a></th>
+                <th id="complete"><a href="#complete">Complete</a></th>
+            </tr>
+            <tr>
+                <td>Creative Coding</td>
+                <td><input type="text" placeholder="Enter task"><ul></ul></td>
+                <td><input type="text" placeholder="Enter assessment link"></td>
+                <td><input type="date"></td>
+                <!--button with audio-->
+                <td><button class="button" onclick="playSound()">Complete</button></td>
+            </tr>
+            <tr>
+                <td>Web Development</td>
+                <td><input type="text" placeholder="Enter task"><ul></ul></td>
+                <td><input type="text" placeholder="Enter assessment link"></td>
+                <td><input type="date"></td>
+                <!--button with audio-->
+                <td><button class="button" onclick="playSound()">Complete</button></td>
+            </tr>
+            <tr>
+                <td>UX Design</td>
+                <td><input type="text" placeholder="Enter task"><ul></ul></td>
+                <td><input type="text" placeholder="Enter assessment link"></td>
+                <td><input type="date"></td>
+                <!--button with audio-->
+                <td><button class="button" onclick="playSound()">Complete</button></td>
+            </tr>
+        </table>
+    </main>
+    <!--footer-->
+    <footer>
+        <p>&copy; 2024 Study Planner by Ayisha Mannan</p>
+    </footer>
+</body>
+</html>
